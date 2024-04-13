@@ -37,5 +37,8 @@
 		"nanoid": "^5.0.7",
 		"svelte-intersection-observer": "^0.10.2",
 		"svelte-swipe": "^2.0.4"
+	},
+	"engines": {
+		"node": ">=18.18.0 <19.0.0"
 	}
 }
