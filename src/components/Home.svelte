@@ -7,6 +7,7 @@
 	import Linkedin from './icons/linkedin.svelte';
 
 	import Carousel from './carousel.svelte';
+	import Cv from './icons/cv.svelte';
 
 	let element: HTMLElement;
 	let intersecting: boolean;
@@ -39,19 +40,23 @@
 				Cristian <span class="text-8xl md:text-6xl">Choque.</span>
 			</h1>
 
-			<div class="flex gap-5">
+			<div class="flex items-center gap-7">
 				<a href="https://github.com/cecc9" target="_blank" class="text-[#057dcd] text-lg">
 					<Github size={50} />
 				</a>
-				<!-- <a href="https://twitter.com/cecc35" target="_blank" class="text-[#057dcd] text-lg">
-					<Twitter />
-				</a> -->
 				<a
 					href="https://www.linkedin.com/in/cristian-choque/"
 					target="_blank"
 					class="text-[#057dcd] text-lg"
 				>
-					<Linkedin />
+					<Linkedin size={44} />
+				</a>
+				<a
+					href="https://drive.google.com/file/d/1ToMVmDG1tDRTXJh7qfhRpxW2gYU5B9ns/view?usp=sharing"
+					target="_blank"
+					class="text-[#057dcd] text-lg"
+				>
+					<Cv size={50} />
 				</a>
 			</div>
 		</div>
