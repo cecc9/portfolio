@@ -52,7 +52,7 @@
 					<Linkedin size={44} />
 				</a>
 				<a
-					href="https://drive.google.com/file/d/1ToMVmDG1tDRTXJh7qfhRpxW2gYU5B9ns/view?usp=sharing"
+					href="https://drive.google.com/file/d/155K7AylC6iEXsbi_sh3Q2YcMjw9xidXt/view?usp=sharing"
 					target="_blank"
 					class="text-[#057dcd] text-lg"
 				>
